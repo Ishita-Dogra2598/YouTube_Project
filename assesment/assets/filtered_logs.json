@@ -1,0 +1,536 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1733081839.016][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
+            "RESPONSE": "[1733081840.123][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"131.0.6778.86\",\"chrome\": {\"chromedriverVersion\": \"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})\",\"userDataDir\": \"C:\\\\Users\\\\Ishita\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir25648_164992926\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:64861\"},\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"webauthn:extension:prf\": true,\"webauthn:virtualAuthenticators\": true},\"sessionId\": \"3215a2c48390423a5d29cf647e4e1af0\"}"
+        },
+        {
+            "COMMAND": "[1733081840.324][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND MaximizeWindow {}",
+            "RESPONSE": "[1733081840.347][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE MaximizeWindow {\"height\": 744,\"width\": 1382,\"x\": -8,\"y\": -8}"
+        },
+        {
+            "COMMAND": "[1733081840.358][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081844.552][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081844.560][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND SetTimeouts {\"implicit\": 5000}",
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1733081844.566][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetUrl {}",
+            "RESPONSE": "[1733081844.610][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetUrl \"https://www.youtube.com/\""
+        },
+        {
+            "COMMAND": "[1733081844.618][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[contains(text(),'About')]\"}",
+            "RESPONSE": "[1733081844.638][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.145C34E7932C442E7C73396110636B49.e.22\"}"
+        },
+        {
+            "COMMAND": "[1733081844.646][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.145C34E7932C442E7C73396110636B49.e.22\"}",
+            "RESPONSE": "[1733081848.472][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081848.475][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//section[@class='ytabout__content']/child::h1\"}",
+            "RESPONSE": "[1733081848.485][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.8\"}"
+        },
+        {
+            "COMMAND": "[1733081848.488][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.8\"}",
+            "RESPONSE": "[1733081848.498][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"About YouTube\""
+        },
+        {
+            "COMMAND": "[1733081848.501][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//section[@class='ytabout__content']/child::p\"}",
+            "RESPONSE": "[1733081848.509][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.4\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.5\"} ]"
+        },
+        {
+            "COMMAND": "[1733081848.512][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.4\"}",
+            "RESPONSE": "[1733081848.517][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Our mission is to give everyone a voice and show them the world.\""
+        },
+        {
+            "COMMAND": "[1733081848.519][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.D75AAE6226832637921B48A221D6A2FB.e.5\"}",
+            "RESPONSE": "[1733081848.525][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.\""
+        },
+        {
+            "COMMAND": "[1733081848.552][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081852.394][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081852.400][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Movies']\"}",
+            "RESPONSE": "[1733081852.416][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.21\"}"
+        },
+        {
+            "COMMAND": "[1733081852.419][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.21\"}",
+            "RESPONSE": "[1733081852.503][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081852.508][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1733081853.024][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.36\"}"
+        },
+        {
+            "COMMAND": "[1733081853.027][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.36\"}",
+            "RESPONSE": "[1733081853.214][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081853.249][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.36\"}",
+            "RESPONSE": "[1733081853.324][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081856.352][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.36\"}",
+            "RESPONSE": "[1733081856.403][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081862.449][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@title='Kung Fu Panda 4']/../following-sibling::span[contains(@class,'renderer')]\"}",
+            "RESPONSE": "[1733081862.485][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}"
+        },
+        {
+            "COMMAND": "[1733081862.490][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@title='Kung Fu Panda 4']/../../..//p[contains(text(),'U')]\"}",
+            "RESPONSE": "[1733081862.505][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.58\"}"
+        },
+        {
+            "COMMAND": "[1733081862.510][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.58\"}",
+            "RESPONSE": "[1733081862.523][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"U\""
+        },
+        {
+            "COMMAND": "[1733081862.527][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}",
+            "RESPONSE": "[1733081862.533][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1733081862.535][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}",
+            "RESPONSE": "[1733081862.541][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1733081862.543][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}",
+            "RESPONSE": "[1733081862.549][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1733081862.551][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}",
+            "RESPONSE": "[1733081862.557][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1733081862.559][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.B0E61F0ADC31B60FD68702CAAFEB5C73.e.57\"}",
+            "RESPONSE": "[1733081862.564][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1733081862.568][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081863.833][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081863.858][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Music']\"}",
+            "RESPONSE": "[1733081864.135][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.73\"}"
+        },
+        {
+            "COMMAND": "[1733081864.139][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.73\"}",
+            "RESPONSE": "[1733081864.389][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081864.393][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[text()=\\\"This year in music\\\"]/ancestor::div/following-sibling::div//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1733081864.964][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.80\"}"
+        },
+        {
+            "COMMAND": "[1733081865.225][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.80\"}",
+            "RESPONSE": "[1733081865.678][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081868.711][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.80\"}",
+            "RESPONSE": "[1733081868.792][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081871.829][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//span[text()='This year in music']/ancestor::div[@id='dismissible']//yt-lockup-view-model\"}",
+            "RESPONSE": "[1733081871.847][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.113\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.114\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.115\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.116\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.117\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.118\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.119\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.120\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.121\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.122\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.123\"} ]"
+        },
+        {
+            "COMMAND": "[1733081871.852][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindChildElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.123\",\"using\": \"xpath\",\"value\": \".//span[contains(@class,'string yt-core')]\"}",
+            "RESPONSE": "[1733081871.868][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.124\"}"
+        },
+        {
+            "COMMAND": "[1733081871.872][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindChildElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.123\",\"using\": \"xpath\",\"value\": \".//div[contains(@class,'shape-wiz__text')]\"}",
+            "RESPONSE": "[1733081871.893][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.125\"}"
+        },
+        {
+            "COMMAND": "[1733081871.896][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.125\"}",
+            "RESPONSE": "[1733081871.907][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"30 songs\""
+        },
+        {
+            "COMMAND": "[1733081871.909][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.711AA38855E84A997D6CC165A914B244.e.124\"}",
+            "RESPONSE": "[1733081871.916][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"Indian Indie Hits 2024\""
+        },
+        {
+            "COMMAND": "[1733081871.919][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081873.271][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081873.275][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='News']\"}",
+            "RESPONSE": "[1733081873.743][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.561113F8B42EB79FE992BBF5FCA7AF7F.e.140\"}"
+        },
+        {
+            "COMMAND": "[1733081873.745][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND ClickElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.561113F8B42EB79FE992BBF5FCA7AF7F.e.140\"}",
+            "RESPONSE": "[1733081873.930][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1733081873.934][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//span[text()='Latest news posts']/../../../../../following-sibling::div//ytd-rich-item-renderer[@items-per-row='3']\"}",
+            "RESPONSE": "[1733081878.984][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [  ]"
+        },
+        {
+            "COMMAND": "[1733081879.492][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081880.975][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081883.984][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081884.013][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.201\"}"
+        },
+        {
+            "COMMAND": "[1733081884.022][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081884.030][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.201\"}"
+        },
+        {
+            "COMMAND": "[1733081884.044][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.201\",\"text\": \"Movies\",\"value\": [ \"M\", \"o\", \"v\", \"i\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1733081884.101][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081884.109][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.201\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1733081884.155][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081892.176][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']/descendant::span[contains(text(),'views')]\"}",
+            "RESPONSE": "[1733081892.212][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.242\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.243\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.244\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.245\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.246\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.247\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.248\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.249\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.250\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.251\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.252\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.253\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.254\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.255\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.256\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.257\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.258\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.259\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.260\"}, \"...\" ]"
+        },
+        {
+            "COMMAND": "[1733081892.227][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.242\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081892.358][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081892.361][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.242\"}",
+            "RESPONSE": "[1733081892.368][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"1.2M views\""
+        },
+        {
+            "COMMAND": "[1733081892.375][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.243\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081892.589][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081892.592][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.243\"}",
+            "RESPONSE": "[1733081892.600][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"3.9M views\""
+        },
+        {
+            "COMMAND": "[1733081892.605][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.244\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081892.758][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081892.761][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.244\"}",
+            "RESPONSE": "[1733081892.809][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"7M views\""
+        },
+        {
+            "COMMAND": "[1733081892.814][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.245\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081892.994][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081892.996][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.245\"}",
+            "RESPONSE": "[1733081893.014][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"11M views\""
+        },
+        {
+            "COMMAND": "[1733081893.019][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.246\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081893.192][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081893.195][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.246\"}",
+            "RESPONSE": "[1733081893.207][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"6.4M views\""
+        },
+        {
+            "COMMAND": "[1733081893.212][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.247\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081893.374][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081893.377][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.247\"}",
+            "RESPONSE": "[1733081893.393][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"3M views\""
+        },
+        {
+            "COMMAND": "[1733081893.397][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.248\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081893.547][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081893.555][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.248\"}",
+            "RESPONSE": "[1733081893.592][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"1.1M views\""
+        },
+        {
+            "COMMAND": "[1733081893.596][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.249\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081893.761][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081893.763][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.249\"}",
+            "RESPONSE": "[1733081893.772][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"358 views\""
+        },
+        {
+            "COMMAND": "[1733081893.776][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.250\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081893.990][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081893.993][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.250\"}",
+            "RESPONSE": "[1733081894.010][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"2.2K views\""
+        },
+        {
+            "COMMAND": "[1733081894.022][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.251\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081894.177][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081894.180][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.251\"}",
+            "RESPONSE": "[1733081894.237][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"862K views\""
+        },
+        {
+            "COMMAND": "[1733081894.240][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.252\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081894.375][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081894.378][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.252\"}",
+            "RESPONSE": "[1733081894.420][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"13M views\""
+        },
+        {
+            "COMMAND": "[1733081894.428][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.253\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081894.589][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081894.592][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.253\"}",
+            "RESPONSE": "[1733081894.600][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"10M views\""
+        },
+        {
+            "COMMAND": "[1733081894.605][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.254\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081894.777][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081894.780][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.254\"}",
+            "RESPONSE": "[1733081894.828][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"6.9M views\""
+        },
+        {
+            "COMMAND": "[1733081894.831][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.255\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081894.978][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081894.980][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.255\"}",
+            "RESPONSE": "[1733081894.989][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"2M views\""
+        },
+        {
+            "COMMAND": "[1733081894.994][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.256\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081895.177][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081895.182][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.256\"}",
+            "RESPONSE": "[1733081895.201][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"677K views\""
+        },
+        {
+            "COMMAND": "[1733081895.206][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.257\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081895.364][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081895.367][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.257\"}",
+            "RESPONSE": "[1733081895.399][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"12K views\""
+        },
+        {
+            "COMMAND": "[1733081895.403][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.258\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081895.673][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081895.676][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.258\"}",
+            "RESPONSE": "[1733081895.684][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"1.9M views\""
+        },
+        {
+            "COMMAND": "[1733081895.689][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.259\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081895.874][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081895.878][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.83A5A560E1BA9F29526BA09346B9104A.e.259\"}",
+            "RESPONSE": "[1733081895.935][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"66M views\""
+        },
+        {
+            "COMMAND": "[1733081895.944][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081897.590][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081900.606][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081900.614][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.284\"}"
+        },
+        {
+            "COMMAND": "[1733081900.616][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081900.622][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.284\"}"
+        },
+        {
+            "COMMAND": "[1733081900.636][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.284\",\"text\": \"Music\",\"value\": [ \"M\", \"u\", \"s\", \"i\", \"c\" ]}",
+            "RESPONSE": "[1733081900.689][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081900.692][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.284\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1733081900.753][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081908.760][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']/descendant::span[contains(text(),'views')]\"}",
+            "RESPONSE": "[1733081908.794][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.305\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.306\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.307\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.308\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.309\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.310\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.311\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.312\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.313\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.314\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.315\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.316\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.317\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.318\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.319\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.320\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.321\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.322\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.323\"} ]"
+        },
+        {
+            "COMMAND": "[1733081908.801][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.305\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081908.944][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081908.948][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.305\"}",
+            "RESPONSE": "[1733081908.962][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"137M views\""
+        },
+        {
+            "COMMAND": "[1733081908.966][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.306\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081909.159][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081909.162][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.306\"}",
+            "RESPONSE": "[1733081909.170][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"48M views\""
+        },
+        {
+            "COMMAND": "[1733081909.174][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.307\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081909.404][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081909.408][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.307\"}",
+            "RESPONSE": "[1733081909.423][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"8.1M views\""
+        },
+        {
+            "COMMAND": "[1733081909.427][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.308\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081909.615][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081909.617][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.AEDF42713CBB067FB1A532E71CE9249F.e.308\"}",
+            "RESPONSE": "[1733081909.642][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"99M views\""
+        },
+        {
+            "COMMAND": "[1733081909.645][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1733081911.129][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1733081914.145][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081914.159][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.337\"}"
+        },
+        {
+            "COMMAND": "[1733081914.163][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1733081914.169][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.337\"}"
+        },
+        {
+            "COMMAND": "[1733081914.182][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.337\",\"text\": \"Games\",\"value\": [ \"G\", \"a\", \"m\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1733081914.234][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081914.236][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND TypeElement {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.337\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1733081914.292][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1733081922.302][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']/descendant::span[contains(text(),'views')]\"}",
+            "RESPONSE": "[1733081922.321][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.388\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.389\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.390\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.391\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.392\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.393\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.394\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.395\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.396\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.397\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.398\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.399\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.400\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.401\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.402\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.403\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.404\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.405\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.406\"}, \"...\" ]"
+        },
+        {
+            "COMMAND": "[1733081922.326][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.388\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081922.455][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081922.457][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.388\"}",
+            "RESPONSE": "[1733081922.466][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"5.7M views\""
+        },
+        {
+            "COMMAND": "[1733081922.469][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.389\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081922.610][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081922.613][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.389\"}",
+            "RESPONSE": "[1733081922.632][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"113M views\""
+        },
+        {
+            "COMMAND": "[1733081922.635][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.390\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081922.779][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081922.781][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.390\"}",
+            "RESPONSE": "[1733081922.789][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"833K views\""
+        },
+        {
+            "COMMAND": "[1733081922.792][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.391\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081922.950][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081922.952][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.391\"}",
+            "RESPONSE": "[1733081922.961][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"216K views\""
+        },
+        {
+            "COMMAND": "[1733081922.965][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.392\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081923.177][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081923.179][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.392\"}",
+            "RESPONSE": "[1733081923.188][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"2M views\""
+        },
+        {
+            "COMMAND": "[1733081923.192][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.393\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081923.377][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081923.379][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.393\"}",
+            "RESPONSE": "[1733081923.386][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"401K views\""
+        },
+        {
+            "COMMAND": "[1733081923.389][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.394\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081923.591][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081923.593][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.394\"}",
+            "RESPONSE": "[1733081923.632][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"15M views\""
+        },
+        {
+            "COMMAND": "[1733081923.637][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.395\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081923.812][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081923.814][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.395\"}",
+            "RESPONSE": "[1733081923.848][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"2.1M views\""
+        },
+        {
+            "COMMAND": "[1733081923.854][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.396\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081924.029][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081924.031][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.396\"}",
+            "RESPONSE": "[1733081924.071][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"2.7M views\""
+        },
+        {
+            "COMMAND": "[1733081924.074][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.397\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081924.265][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081924.268][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.397\"}",
+            "RESPONSE": "[1733081924.295][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"160 views\""
+        },
+        {
+            "COMMAND": "[1733081924.299][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.398\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081924.459][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081924.463][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.398\"}",
+            "RESPONSE": "[1733081924.496][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"37M views\""
+        },
+        {
+            "COMMAND": "[1733081924.499][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.399\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081924.629][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081924.631][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.399\"}",
+            "RESPONSE": "[1733081924.640][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"21M views\""
+        },
+        {
+            "COMMAND": "[1733081924.643][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.400\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081924.816][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081924.818][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.400\"}",
+            "RESPONSE": "[1733081924.857][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"30K views\""
+        },
+        {
+            "COMMAND": "[1733081924.860][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND PerformActions {\"actions\": [ {\"actions\": [ {\"duration\": 100,\"origin\": {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.401\"},\"type\": \"pointerMove\",\"x\": 0,\"y\": 0} ],\"id\": \"default mouse\",\"parameters\": {\"pointerType\": \"mouse\"},\"type\": \"pointer\"} ]}",
+            "RESPONSE": "[1733081925.015][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE PerformActions"
+        },
+        {
+            "COMMAND": "[1733081925.018][INFO]: [3215a2c48390423a5d29cf647e4e1af0] COMMAND GetElementText {\"id\": \"f.E310A20C7315CFBFD1FE64E7504C49FB.d.5A3B2D3C3966EAEED7426190EABF3634.e.401\"}",
+            "RESPONSE": "[1733081925.055][INFO]: [3215a2c48390423a5d29cf647e4e1af0] RESPONSE GetElementText \"17M views\""
+        }
+    ]
+}
